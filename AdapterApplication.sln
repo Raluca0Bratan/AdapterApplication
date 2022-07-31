@@ -1,0 +1,64 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32630.192
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdapterApplication", "AdapterApplication\AdapterApplication.csproj", "{07BFD14E-5FEC-4E0A-9737-389213A7507E}"
+	ProjectSection(ProjectDependencies) = postProject
+		{B52C3AF4-79D1-4A53-ADA7-C673564A05B7} = {B52C3AF4-79D1-4A53-ADA7-C673564A05B7}
+		{D6508008-4638-48C1-9010-0E8D1BCC0FBE} = {D6508008-4638-48C1-9010-0E8D1BCC0FBE}
+		{F0B81DA8-C806-492D-B127-0D7DA4F3354D} = {F0B81DA8-C806-492D-B127-0D7DA4F3354D}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DatabaseReader", "DatabaseReader\DatabaseReader.csproj", "{B52C3AF4-79D1-4A53-ADA7-C673564A05B7}"
+	ProjectSection(ProjectDependencies) = postProject
+		{4607BE25-A681-41C3-9AA7-90B5C8960756} = {4607BE25-A681-41C3-9AA7-90B5C8960756}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataPrinter", "DataPrinter\DataPrinter.csproj", "{F0B81DA8-C806-492D-B127-0D7DA4F3354D}"
+	ProjectSection(ProjectDependencies) = postProject
+		{4607BE25-A681-41C3-9AA7-90B5C8960756} = {4607BE25-A681-41C3-9AA7-90B5C8960756}
+		{D6508008-4638-48C1-9010-0E8D1BCC0FBE} = {D6508008-4638-48C1-9010-0E8D1BCC0FBE}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataToJsonAdaptor", "DataToJsonAdaptor\DataToJsonAdaptor.csproj", "{D6508008-4638-48C1-9010-0E8D1BCC0FBE}"
+	ProjectSection(ProjectDependencies) = postProject
+		{B52C3AF4-79D1-4A53-ADA7-C673564A05B7} = {B52C3AF4-79D1-4A53-ADA7-C673564A05B7}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VehicleDetails", "VehicleDetails\VehicleDetails.csproj", "{4607BE25-A681-41C3-9AA7-90B5C8960756}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{07BFD14E-5FEC-4E0A-9737-389213A7507E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07BFD14E-5FEC-4E0A-9737-389213A7507E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07BFD14E-5FEC-4E0A-9737-389213A7507E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07BFD14E-5FEC-4E0A-9737-389213A7507E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B52C3AF4-79D1-4A53-ADA7-C673564A05B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B52C3AF4-79D1-4A53-ADA7-C673564A05B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B52C3AF4-79D1-4A53-ADA7-C673564A05B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B52C3AF4-79D1-4A53-ADA7-C673564A05B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F0B81DA8-C806-492D-B127-0D7DA4F3354D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F0B81DA8-C806-492D-B127-0D7DA4F3354D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F0B81DA8-C806-492D-B127-0D7DA4F3354D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F0B81DA8-C806-492D-B127-0D7DA4F3354D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6508008-4638-48C1-9010-0E8D1BCC0FBE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6508008-4638-48C1-9010-0E8D1BCC0FBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6508008-4638-48C1-9010-0E8D1BCC0FBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6508008-4638-48C1-9010-0E8D1BCC0FBE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4607BE25-A681-41C3-9AA7-90B5C8960756}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4607BE25-A681-41C3-9AA7-90B5C8960756}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4607BE25-A681-41C3-9AA7-90B5C8960756}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4607BE25-A681-41C3-9AA7-90B5C8960756}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {39B9C49F-C12C-4188-B56D-EDC9E47365CB}
+	EndGlobalSection
+EndGlobal
